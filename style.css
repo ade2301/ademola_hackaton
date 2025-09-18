@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.afri{
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-between;
+    width: 90vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 10vh;
+    border-radius: 35px;
+    background-color: rgb(0, 0, 0,0.2);
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.right{
+    display: flex;
+    gap: 25px;
+    justify-self: end;
+    align-items: center;
+}
+.navtext{
+    font-size:17px ;
+    color: white;
+}
+.button{
+    background-color: #a0733a;
+    border: none;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+.img{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/hackathon/imagesh/g2.jpg);
+    background: linear-gradient(black, gray, black) url(/hackathon/imagesh/giraffe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    overflow-x: hidden;
+    z-index: -5;
+
+}
+.texts{
+    text-align:left;
+    color: white;
+    margin-top: 20vh;
+    margin-left: 5vw;
+}
+h1{
+    font-size: 45px;
+
+}
+h3{
+    font-size: 30px;
+}
+.buttn{
+    width: 110px;
+    height: 30px;
+    background-color: #a0733a;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 20px;
+    align-items: center;
+
+}
+.button:hover{
+    width:125px;
+    opacity: 1.3;
+}
+.buttn:hover{
+    width:125px;
+    opacity: 2;
+}
+
+.second{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.chacam{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.thirdpage {
+    height: 70vh;
+    width: 100vw;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5D1C1;
+    background-image: url(/hackathon/imagesh/temple.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.cardsagain {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    margin-top: 50px;
+    
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.card3 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    width: 270px;
+    color: white;
+    border-radius: 20px;
+    background-color: #302115;
+    margin-bottom: -50px;
+
+}
+.card4 {
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    width: 270px;
+    color: white;
+    border-radius: 20px;
+    background-color: #302115;
+    margin-bottom: -50px;
+
+}
+.card5 {
+    text-align: center;
+    align-items: center;
+    height: 270px;
+    color: white;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #302115;
+    margin-bottom: -50px;
+
+}
+.card6 {
+    text-align: center;
+    align-items: center;
+    height: 270px;
+    color: white;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #302115;
+    margin-bottom: -50px
+}
+center{
+    font-size: 40px;
+    color: white;
+    margin-bottom: -120px;
+}
+.fourthpage {
+    height: 90vh;
+    width: 100vw;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5D1C1;
+}
+
+h1 {
+    text-align: center;
+}
+
+.rubbish {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.re {
+    border-radius: 25px;
+    width: 150px;
+    height:20px;
+    color: white;
+    background-color: #a0733a;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+}
+.rew {
+    border-radius: 25px;
+    width: 150px;
+    color: #a0733a;
+    height:20px;
+    border: 2px solid #a0733a;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+center {
+    color: white;
+    font-size: 50px;
+    margin-bottom: -160px;
+}
+
+.countries {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fifthpage {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5D1C1;
+}
+
+
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 180px;
+    gap: 20px;
+    max-width: 1400px;
+    margin-left: 20px;
+}
+
+/* Images common styles */
+.collage img,
+.overlay {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Sizing and positioning */
+.tall {
+    grid-row: span 2;
+}
+.huge {
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
