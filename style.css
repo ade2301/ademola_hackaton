@@ -127,23 +127,35 @@ h3{
 }
 
 .card3 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 250px;
-    width: 270px;
+    height: 200px;
+    width: 250px;
     color: white;
+    opacity: 0.75;
     border-radius: 20px;
     background-color: #302115;
     margin-bottom: -50px;
 
 }
+
+.www{
+    background-color: #a0733a;
+    border-radius: 50%;
+}
 .card4 {
     text-align: center;
+    justify-content: center;
     align-items: center;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
     width: 270px;
     color: white;
+    opacity: 0.75;
     border-radius: 20px;
     background-color: #302115;
     margin-bottom: -50px;
@@ -151,9 +163,13 @@ h3{
 }
 .card5 {
     text-align: center;
+    justify-content: center;
     align-items: center;
-    height: 270px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
     color: white;
+    opacity: 0.75;
     width: 250px;
     border-radius: 20px;
     background-color: #302115;
@@ -163,8 +179,12 @@ h3{
 .card6 {
     text-align: center;
     align-items: center;
-    height: 270px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     color: white;
+    opacity: 0.75;
     width: 250px;
     border-radius: 20px;
     background-color: #302115;
